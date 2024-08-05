@@ -1,0 +1,167 @@
+[update]
+newversion=2.1.8885.16781
+localversion=epprodsys.exe
+descr=E-Prod version 29-04-2024
+
+[application]
+appupdate=1
+appname=epprodsys.exe
+appcomps=epprodsys.cab
+silentrestart=1
+
+[whatsnew]
+file=https://app.api-eprod-solutions.com:446/eProd_releases/2024/20240429/releasenotes.txt
+
+[files]
+count=21
+
+[file1]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2024/20240429/epprodsys.cab
+newversion=2.1.8885.16781
+localversion=epprodsys.exe
+descr=Main executable
+targetdir={APP}
+mandatory=1
+
+[file2]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2023/libeay32.dll
+localversion=libeay32.dll
+descr=SSL component (libeay32.dll)
+targetdir={APP}
+mandatory=0
+
+[file3]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2023/ssleay32.dll
+localversion=ssleay32.dll
+descr=SSL component (ssleay32.dll)
+targetdir={APP}
+mandatory=0
+
+[file4]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2023/zip.exe
+localversion=zip.exe
+descr=ZIP component (required for backup)
+targetdir={APP}
+mandatory=0
+
+[file5]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2024/20240429/reports.xml
+localversion=reports.xml
+descr=Report definitions
+targetdir={APP}
+mandatory=1
+
+[file6]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2023/export2xls.dll
+localversion=export2xls.dll
+descr=Excel export dll
+targetdir={APP}
+mandatory=1
+
+[file7]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2024/20240429/EPProdsys-am.dll
+localversion=EPProdsys-am.dll
+descr=Amharic language pack
+targetdir={APP}
+mandatory=0
+
+[file8]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2024/20240429/EPProdsys-ti.dll
+localversion=EPProdsys-ti.dll
+descr=Tigrinya language pack
+targetdir={APP}
+mandatory=0
+
+[file9]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2024/20240429/EPProdsys-sw.dll
+localversion=EPProdsys-sw.dll
+descr=Swahili language pack
+targetdir={APP}
+mandatory=0
+
+[file10]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2024/20240429/EPProdsys-rw.dll
+localversion=EPProdsys-rw.dll
+descr=Kinyarwanda language pack
+targetdir={APP}
+mandatory=0
+
+[file11]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2024/20240429/EPProdsys-ps.dll
+localversion=EPProdsys-ps.dll
+descr=Pashto language pack
+targetdir={APP}
+mandatory=0
+
+[file12]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2024/20240429/EPProdsys-prs.dll
+localversion=EPProdsys-prs.dll
+descr=Dari language pack
+targetdir={APP}
+mandatory=0
+
+[file13]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2024/20240429/EPProdsys-es.dll
+localversion=EPProdsys-es.dll
+descr=Spanish language pack
+targetdir={APP}
+mandatory=0
+
+[file14]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2024/20240429/EPProdsys-fr.dll
+localversion=EPProdsys-fr.dll
+descr=French language pack
+targetdir={APP}
+mandatory=0
+
+[file15]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2024/20240429/EPProdsys-pt.dll
+localversion=EPProdsys-pt.dll
+descr=Portuguese language pack
+targetdir={APP}
+mandatory=0
+
+[file16]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2023/mysqldump.exe
+localversion=mysqldump.exe
+descr=MySQL Dump 5.6.24
+targetdir={APP}
+mandatory=1
+
+[file17]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2023/mysqldump80.exe
+localversion=mysqldump80.exe
+descr=MySQL Dump 8.0
+targetdir={APP}
+mandatory=1
+
+[file18]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2023/mysql.exe
+localversion=mysql.exe
+descr=MySQL  8.0.22
+targetdir={APP}
+mandatory=1
+
+[file19]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2024/20240429/EPProdsys-br.dll
+localversion=EPProdsys-pt.dll
+descr=Brazil Portuguese language pack
+targetdir={APP}
+mandatory=0
+
+[file20]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2023/libcrypto-1_1-x64.dll
+localversion=libcrypto-1_1-x64.dll
+descr=OpenSSL library file 64bit
+targetdir={APP}
+mandatory=1
+
+[file21]
+url=https://app.api-eprod-solutions.com:446/eProd_releases/2023/libssl-1_1-x64.dll
+localversion=ibssl-1_1-x64.dll
+descr=OpenSSL library file 64bit
+targetdir={APP}
+mandatory=1
+
+
+
