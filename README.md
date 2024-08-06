@@ -1,12 +1,12 @@
-Creating a README.md file for your project involves providing a clear and concise description of the project, its purpose, and instructions on how to use it. Below is a sample README.md for your phishing page project, which includes sections for description, setup instructions, and author information. I'll also mention adding images, though you'll need to replace the placeholder paths with the actual paths to your images.
 
 ### Sample README.md
 
 ```markdown
 # Phishing Page
 
-![Phishing Page](path_to_your_image_here)  <!-- Replace with actual image path -->
-
+![HTML](https://www.cnet.com/a/img/resize/b9b09bd80b3129a6a5da79d9bd17487b977c9677/hub/2014/10/27/40194e6e-2544-419e-a340-f7c17b2e83c5/html5-wow-image-w3c.jpg?auto=webp&width=768)  <!-- Replace with actual image path -->
+![CSS](https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png)
+![Bootstrap](https://www.tutorialrepublic.com/lib/images/bootstrap-5.0-illustration.png)
 ## Description
 
 This project is a phishing page created to simulate a login page for educational and security awareness purposes. It demonstrates how phishing attacks can be constructed to educate users about the dangers of such attacks and how to protect themselves.
@@ -67,13 +67,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspiration and resources from various security forums and educational platforms.
 ```
 
-### Instructions for Adding Images
-- Replace `path_to_your_image_here` with the actual path to your image files.
-- Ensure your images are stored in the project directory or a subdirectory, and reference them correctly in the markdown.
-
-### Including the `index.php` File
-Ensure that your `index.php` file is included in the repository, and mention it clearly in the setup instructions.
-
----
-
-This README.md template should give a comprehensive overview of your project and guide users on how to set it up and use it. Adjust the content as needed to fit your specific project details.
